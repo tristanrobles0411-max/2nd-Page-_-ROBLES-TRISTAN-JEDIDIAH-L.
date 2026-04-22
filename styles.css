@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #EFE9E3;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+  background: #41070c;
+  color: #FFFFFF;
+  padding: 15px 35px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 90px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 34px;
+  margin: 0;
+  color: #E5BA41;
+}
+
+nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+nav a:hover, nav a.active { color: #E5BA41; }
+
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  color: #3B060A;
+}
+
+
+.hero {
+  display: flex;
+  padding: 60px 40px;
+  gap: 24px;
+}
+
+.hero-text {
+  width: 25%;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.hero-grid {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.hero-grid img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+
+.products-section {
+  padding: 60px 40px;
+}
+
+.products-section h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #3B060A;
+  margin-bottom: 40px;
+}
+
+.category { margin-bottom: 50px; }
+
+.category h2 {
+  font-size: 28px;
+  color: #3B060A;
+  margin-bottom: 16px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: #DCD7C9;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-card p { margin: 4px 0; font-size: 15px; }
+.price { font-weight: bold; color: #3B060A; }
+
+
+.info-section {
+  padding: 60px 40px;
+  border-bottom: 1px solid #DCD7C9;
+}
+
+.info-section:last-of-type { border-bottom: none; }
+
+.info-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #3B060A;
+  margin-bottom: 30px;
+}
+
+.services-img {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 900px;
+}
+
+.service-card {
+  background: #DCD7C9;
+  border-radius: 5px;
+  padding: 24px;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3B060A;
+  margin: 0 0 8px;
+}
+
+.service-card p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.contact-info, .about-text {
+  max-width: 800px;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.contact-info p { margin-bottom: 8px; }
