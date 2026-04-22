@@ -151,42 +151,6 @@ footer {
   margin-bottom: 30px;
 }
 
-.services-img {
-  width: 100%;
-  max-width: 800px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  display: block;
-}
-
-.service-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 24px;
-  max-width: 900px;
-}
-
-.service-card {
-  background: #DCD7C9;
-  border-radius: 5px;
-  padding: 24px;
-}
-
-.service-card h3 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #3B060A;
-  margin: 0 0 8px;
-}
-
-.service-card p {
-  font-size: 16px;
-  line-height: 1.7;
-  margin: 0;
-}
-
 .contact-info, .about-text {
   max-width: 800px;
   font-size: 20px;
